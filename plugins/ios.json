@@ -1,0 +1,36 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/widget": [
+                        {
+                            "xml": "<feature name=\"CDVRBVBtns\"><param name=\"ios-package\" value=\"CDVRBVBtns\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Hello\"><param name=\"ios-package\" value=\"HWPHello\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "net.randymcmillan.cdvrbvbtnsproj"
+        },
+        "net.randymcmillan.cdvrbvbtns": {
+            "PACKAGE_NAME": "net.randymcmillan.cdvrbvbtnsproj"
+        },
+        "com.example.hello": {
+            "PACKAGE_NAME": "net.randymcmillan.cdvrbvbtnsproj"
+        }
+    },
+    "dependent_plugins": {}
+}
